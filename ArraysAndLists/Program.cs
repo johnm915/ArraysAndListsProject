@@ -26,17 +26,19 @@ namespace ArraysAndLists
              * Then add those numbers to either the evens List
              * or the odds List
              */
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                if (numbers[i] % 2 == 0)  
-                {
-                    evens.Add(numbers[i]);
-                }
-                else
-                {
-                    odds.Add(numbers[i]);
-                }
-            }
+        for (int i = 0; i < numbers.Length; i++)
+        {
+        if (numbers[i] % 2 == 0)  
+        {
+         evens.Add(numbers[i]);
+         }
+        else
+        {
+         odds.Add(numbers[i]);
+        }
+
+
+        }
 
 
 
@@ -72,16 +74,16 @@ namespace ArraysAndLists
              *
              * Try to be creative in your display
              */
-                foreach (var item in evens)
-            {
-                Console.WriteLine($"{item} is an even number");
-            }
-                foreach (var item in odds)
-            {
-                Console.WriteLine($"{item} is an odd number");
+        foreach (var item in evens)
+        {
+         Console.WriteLine($"{item} is an even number");
+        }
+        foreach (var item in odds)
+        {
+         Console.WriteLine($"{item} is an odd number");
 
 
-            }
+        }
 
 
         }
